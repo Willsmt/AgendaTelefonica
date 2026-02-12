@@ -6,7 +6,7 @@ Uma aplicação web prática e elegante para gerenciar sua lista de contatos. O 
 
 ### 🔗 Demonstração Online
 
-> **[Clique aqui para acessar a Agenda de Contatos](https://www.google.com/search?q=COLOQUE_O_LINK_AQUI)**
+> **[Clique aqui para acessar a Agenda de Contatos](https://agendatelefonica-seven.vercel.app/)**
 
 
 ---
