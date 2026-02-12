@@ -67,8 +67,10 @@ function adicionarLinha() {
   const telefone = document.getElementById("telefone");
 
   // Verifica se o nome já existe no array (evita duplicados)
-  if (arrayNomes.includes(nome.value, telefone.value)) {
+  if (arrayNomes.includes(nome.value)) {
     alert(`O nome : ${nome.value} já foi inserido na agenda.`);
+  } else if (arrayTelefones.includes(telefone.value)) {
+    alert(`O telefone: ${telefone.value} já pertence a outro contato.`);
   } else {
     // Adiciona nome e telefone nos arrays
     arrayNomes.push(nome.value);
