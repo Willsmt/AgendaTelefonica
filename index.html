@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agenda Telefones</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="cabecalho">
+        <h1>📒 Agenda de Telefones</h1>
+      </header>
+
+      <main>
+        <!-- Formulário -->
+        <div class="forms">
+          <form id="form-agenda">
+            <label for="nome">Nome</label>
+            <input
+              type="text"
+              id="nome"
+              name="nome"
+              placeholder="Digite o nome"
+              required
+            />
+
+            <label for="telefone">Telefone</label>
+            <input
+              type="tel"
+              id="telefone"
+              name="telefone"
+              placeholder="(11) 91234-5678"
+              required
+            />
+
+            <button type="submit">Adicionar +</button>
+          </form>
+        </div>
+
+        <!-- Tabela -->
+        <div class="tabela">
+          <table>
+            <thead>
+              <tr>
+                <th>Nome</th>
+                <th>Telefone</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td></td>
+                <td></td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="2">--- Fim da lista ---</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </main>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
